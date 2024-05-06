@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,27 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.MuiSlider-rail {
+  background-color: #e4e7ec !important;
+}
+
+.MuiSlider-thumb:hover,
+.MuiSlider-thumb:focus,
+.MuiSlider-thumb:active,
+.MuiSlider-thumb:focus-within {
+  box-shadow: none !important;
+}
+
+.confirm-btn{
+  background-color: #9847FF !important;
+  text-transform: capitalize !important;
+  border-radius: 7px !important;
+  color: white !important;
+}
+
+.confirm-btn:disabled{
+  background-color: #9747ff9a !important;
+  cursor: not-allowed !important;
 }
